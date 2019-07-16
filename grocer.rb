@@ -7,7 +7,12 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  # code here
+  {
+  "AVOCADO" => {:price => 3.00, :clearance => true, :count => 3},
+  "KALE"    => {:price => 3.00, :clearance => false, :count => 1}
+}
+puts
+
 end
 
 def apply_clearance(cart)
